@@ -1,16 +1,34 @@
 # AudioRii
-an audio intelligence platform exploring signal relationships, behavioural sound modelling and next-generation creative tools for musicians, producers and developers. Built around the RII Engine
 
-We do not build effects.
+AudioRii ecosystem repository.
 
-We build relationships.
+## Current application
 
-Signals.
-Behaviour.
-Space.
-Identity.
-Performance.
+- `main-site/` — public-facing `audiorii.com` Next.js application.
 
-AudioRii explores how sound can be understood,
-reconstructed and reimagined through software,
-hardware and intelligent systems.
+## Reserved system areas
+
+- `docs/public/` — publishable documentation.
+- `docs/beta/` — restricted beta documentation.
+- `docs/internal/` — private architecture, provenance and research records.
+- `packages/` — future shared system packages.
+- `scripts/` — repository and data tooling.
+
+## Brand asset
+
+Place the master flow-arc logo at:
+
+`main-site/public/assets/brand/logo/audiorii-flow-arc.svg`
+
+It will be publicly available from:
+
+`/assets/brand/logo/audiorii-flow-arc.svg`
+
+## Local development
+
+```bash
+cd ~/Dev/AudioRii/main-site
+npm run dev
+```
+
+Open `http://localhost:3000`.

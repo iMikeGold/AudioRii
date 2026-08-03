@@ -1,0 +1,63 @@
+.DS_Store
+node_modules/
+.next/
+out/
+build/
+dist/
+*.log
+.env
+.env.*
+!.env.example
+.vercel/
+.wrangler/
+.open-next/
+*.tsbuildinfo
+next-env.d.ts
+
+# AudioRii generated and local files: start
+# Dependencies
+node_modules/
+
+# Next.js output
+.next/
+out/
+next-env.d.ts
+*.tsbuildinfo
+
+# OpenNext / Cloudflare output
+.open-next/
+.wrangler/
+.dev.vars
+.dev.vars.*
+wrangler.toml.local
+wrangler.jsonc.local
+
+# Other generated output
+dist/
+build/
+coverage/
+.vercel/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Local environment files
+.env
+.env.*
+!.env.example
+
+# Operating-system and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+# AudioRii generated and local files: end
+
+# Local refactor backups
+backups/
