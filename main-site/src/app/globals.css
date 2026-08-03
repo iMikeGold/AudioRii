@@ -1932,3 +1932,30 @@ main {
 
 /* AudioRii layout correction: end */
 
+/* AudioRii mobile polish: start */
+
+@media (max-width: 760px) {
+  .home-hero .hero-actions {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    gap: 0.75rem !important;
+    margin-top: 1.65rem !important;
+  }
+
+  .home-hero .hero-actions .primary-button,
+  .home-hero .hero-actions .text-button {
+    width: max-content !important;
+    align-self: flex-start !important;
+  }
+
+  .home-hero .hero-actions .text-button {
+    min-height: 2.25rem !important;
+    margin: 0 !important;
+    padding: 0.15rem 0 !important;
+    line-height: 1.2 !important;
+  }
+}
+
+/* AudioRii mobile polish: end */
+

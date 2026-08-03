@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { primaryNavigation, utilityNavigation } from "@/config/site";
+import { MobileMenu } from "@/components/mobile-menu";
 
 export function SiteHeader() {
   return (
@@ -35,16 +36,7 @@ export function SiteHeader() {
         ))}
       </nav>
 
-      <details className="mobile-menu">
-        <summary aria-label="Open navigation">Menu</summary>
-        <div>
-          {[...primaryNavigation, ...utilityNavigation].map((item) => (
-            <Link key={item.href} href={item.href}>
-              {item.label}
-            </Link>
-          ))}
-        </div>
-      </details>
+      <MobileMenu items={[...primaryNavigation, ...utilityNavigation]} />
     </header>
   );
 }

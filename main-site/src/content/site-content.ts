@@ -235,7 +235,7 @@ export const secondarySections = {
   },
   soundbase: {
     eyebrow: "AudioRii Soundbase",
-    title: "Find the sound. Shape the instrument.",
+    title: "Find the sound. Shape\u00A0the instrument.",
     intro:
       "Soundbase is the AudioRii library, discovery environment and marketplace for samples, playable instruments, sound packs, source recordings and sound profiles.",
     statement:
