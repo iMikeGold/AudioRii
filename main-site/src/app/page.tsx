@@ -44,7 +44,7 @@ export default function HomePage() {
         <div className="hero-product">
           <div className="product-glow" />
           <Image
-            src="/assets/RiiSign.png"
+            src="/assets/products/RiiSign.webp"
             alt="Conceptual RiiSign sine and signal instrument"
             width={1536}
             height={1024}
@@ -151,7 +151,7 @@ export default function HomePage() {
         </div>
         <div className="engine-visual">
           <Image
-            src="/assets/FlowArch-Flat.png"
+            src="/assets/products/FlowArch-Flat.webp"
             alt="AudioRii Flow Arc visual language"
             width={1536}
             height={1024}
@@ -189,7 +189,7 @@ export default function HomePage() {
           </Link>
         </div>
         <Image
-          src="/assets/FlowArch-Box.png"
+          src="/assets/products/FlowArch-Box.webp"
           alt="Conceptual AudioRii product packaging"
           width={1536}
           height={1024}

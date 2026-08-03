@@ -26,7 +26,7 @@ export const products: Product[] = [
     description:
       "RiiSign gives you direct control over frequency, phase, polarity, tuning, movement and harmonic construction. Start with a pure sine, introduce partials and relationships, create beating and stereo movement, then shape the signal without losing sight of its fundamental.",
     status: "In development",
-    image: "/assets/RiiSign.png",
+    image: "/assets/products/RiiSign.webp",
     imageAlt: "Conceptual RiiSign plug-in interface and product box",
     accent: "cyan",
     features: [
@@ -52,7 +52,7 @@ export const products: Product[] = [
     description:
       "RiiLinr centres on multi-source audio. Bring browser, application, hardware and network feeds into one place; route, monitor, record and align them while keeping direct control of every line, channel, phase and timing relationship.",
     status: "Concept development",
-    image: "/assets/RiiLinr.png",
+    image: "/assets/products/RiiLinr.webp",
     imageAlt: "Conceptual RiiLinr multi-source routing interface and product box",
     accent: "blue",
     features: [
@@ -78,7 +78,7 @@ export const products: Product[] = [
     description:
       "RiiMix turns connected channels into a responsive mixing environment. Blend sources, shape bus relationships, create parallel paths, move energy between channels and recall complete configurations while every signal remains independently controllable.",
     status: "Concept development",
-    image: "/assets/RiiMix.png",
+    image: "/assets/products/RiiMix.webp",
     imageAlt: "Conceptual RiiMix relationship-mixing interface and product box",
     accent: "mixed",
     features: [
@@ -104,7 +104,7 @@ export const products: Product[] = [
     description:
       "RiiSpace gives you control over placement, depth, room identity and monitoring translation. Build environments for vocals, drums, instruments and complete mixes, then carry the same spatial intention across speakers and headphones.",
     status: "Research and development",
-    image: "/assets/RiiSpace.png",
+    image: "/assets/products/RiiSpace.webp",
     imageAlt: "Conceptual RiiSpace spatial-audio interface and product box",
     accent: "amber",
     features: [
@@ -130,7 +130,7 @@ export const products: Product[] = [
     description:
       "RiiForm is not another conventional channel-strip plug-in. Body, resonance, dynamics, parallel processing and formant relationships meet in one flexible environment for drums, vocals, buses and complete mixes.",
     status: "Research and development",
-    image: "/assets/RiiForm.png",
+    image: "/assets/products/RiiForm.webp",
     imageAlt: "Conceptual RiiForm body and resonance interface and product box",
     accent: "mixed",
     features: [
@@ -156,7 +156,7 @@ export const products: Product[] = [
     description:
       "RiiPulsiv brings pulse, transient behaviour, groove and envelope into one responsive surface. Control how a sound strikes, repeats, pushes, relaxes and moves through time.",
     status: "Concept development",
-    image: "/assets/RiiPulsiv.png",
+    image: "/assets/products/RiiPulsiv.webp",
     imageAlt: "Conceptual RiiPulsiv pulse and transient interface and product box",
     accent: "violet",
     features: [
@@ -182,7 +182,7 @@ export const products: Product[] = [
     description:
       "RiiSamplr combines a virtual instrument with RiiSampl, the sampling engine and library environment behind it. Capture your own material, edit and organise samples, map articulations, shape playback and build complete playable instruments in one place. The same instrument architecture extends toward dedicated pad controllers, keyboards, machines and synthesiser-style hardware.",
     status: "Research and development",
-    image: "/assets/RiiSamplr.png",
+    image: "/assets/products/RiiSamplr.webp",
     imageAlt: "Conceptual RiiSamplr software and hardware sampling instrument",
     accent: "mixed",
     features: [
